@@ -8,5 +8,5 @@
 - 工具、语言多方面学习
 - 优秀的学习辅助系统
 
-[Github](https://nikan0925.github.io/nikancode)
+[Github](https://github.com/freelancersinchina/diveintophp)
 [Get Started](#main)
