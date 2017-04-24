@@ -11,9 +11,32 @@
   <div id="app"></div>
 </body>
 <script>
-  window.$docsify = {
-    name: '',
-    repo: ''
+    window.$docsify = {
+    name: 'Nikan Android',
+    repo: 'https://github.com/nikan0925/nikancode',
+  	loadNavbar:true,
+  	coverpage:true,
+    maxLevel: 3,
+
+    // 配置搜索
+    search: {
+      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      paths: 'auto', // or 'auto'
+      placeholder: 'Type to search',
+      // 支持本地化
+      placeholder: {
+        '/': '搜索',
+        '/en-us': 'Type to search'
+      },
+
+      noData: 'No Results!',
+
+      // 支持本地化
+      noData: {
+        '/': '找不到结果',
+        '/en-us': 'No Results'
+      }
+    }
   }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
