@@ -16,7 +16,7 @@
 
 在5.2之前，通过`__autoload()`函数来自动加载，在5.2中这个函数不再建议，因为一个项目中仅能只有一个这样的`__autoload()`函数，用来代替的是`spl_autoload_register()`。
 
-```php
+```java
 spl_autoload_register(function($classname){
   require_once("{$classname}.php");
 });
