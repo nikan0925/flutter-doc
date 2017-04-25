@@ -2,7 +2,7 @@
 
 > 一场关于深入探索PHP高级特性的进阶学习旅程
 
-## 这是什么
+## 这是什....么
 
 Dive into PHP 是一场关于深入学习PHP高级特性的进阶学习旅程。我们受饿了么大前端部门的[Node.js Interview](https://github.com/ElemeFE/node-interview)项目启发，再结合一般学习规律，最终形成了这个项目。这个项目正在不断增加中，期待更多人参与进来，帮助到更多的人。
 
